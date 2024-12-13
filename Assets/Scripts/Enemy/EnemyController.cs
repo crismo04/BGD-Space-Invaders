@@ -61,6 +61,8 @@ public class EnemyController : MonoBehaviour
             if (transform.position.x >= maxPosX)
             {
                 isMovingRight = false;
+                //TODO add movement to X vertex
+                //TODO add triger when it reach the botton
             }
         }
         else

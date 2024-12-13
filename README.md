@@ -8,8 +8,6 @@
 
 ## PLANED WORK:
 
-- Graphics: Change the player, enemies, and background with open images.
-- Sound: Add Shooting SFX, Alien destruction SFX and background music with open sounds.
 - UI: 
     - Add number of enemies left and destroyed.
     - Add number of bullets you have.
@@ -26,7 +24,17 @@ The Wow Factor: wishes.
 -----
 
 ## WORK DONE:
-TODO
+
+- Graphics: 
+    - Change the player, enemies, and background with open images.
+    - Images taken from Freepik (https://www.freepik.com/) with open license
+
+- Sound: 
+    - Add Shooting SFX, Alien destruction SFX and background music.
+    - Sounds taken from Pixabay (https://pixabay.com/sound-effects/)  with open license
+
+- Mechanic:
+    - The bullet have a movement effect by scripting (every cooldown seconds, it rotate in the X axis)
 
 -----
 <!-- ## Gameplay images:

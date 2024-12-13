@@ -6,13 +6,17 @@ public class ProjectileBehaviour : MonoBehaviour
 {
     public float moveSpeed = 5f;
     public float destroyDelay = 5f;
+    public float countdown = 5f;
+    private float aux;
 
     // Start is called before the first frame update
     void Start()
     {
-		// Another form of the Destroy function, which allows us to destroy an object
-		// after a delay in seconds. We set the delay with a variable "destroyAfter"
+        // Another form of the Destroy function, which allows us to destroy an object
+        // after a delay in seconds. We set the delay with a variable "destroyAfter"
+        aux = countdown;
         Destroy(gameObject, destroyDelay);
+
     }
 
     // Update is called once per frame
@@ -23,5 +27,13 @@ public class ProjectileBehaviour : MonoBehaviour
         // in different situations. (can do the same for X and then it'll move in any direction you want)
         Vector3 translationVector = new Vector3(0f, 1f) * moveSpeed * Time.deltaTime;
         transform.Translate(translationVector);
+
+        //Rotates the script to looks like movement
+        aux -= Time.deltaTime;
+        if (aux <= 0)
+        {
+            GetComponent<SpriteRenderer>().flipX = !GetComponent<SpriteRenderer>().flipX;
+            aux = countdown;
+        }
     }
 }
