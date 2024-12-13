@@ -12,7 +12,7 @@
     - Add number of enemies left and destroyed.
     - Add number of bullets you have.
     - Add number of wishes you have.
-    - Add an opening and end game screen.
+
 - Mechanic:
     - add boxes to have bullets.
     - reduce the number of bullets with every shoot (you cant shoot if you dont have bullets).
@@ -33,8 +33,12 @@ The Wow Factor: wishes.
     - Add Shooting SFX, Alien destruction SFX and background music.
     - Sounds taken from Pixabay (https://pixabay.com/sound-effects/)  with open license
 
+- UI:
+    - Add an opening and end game screen.
+
 - Mechanic:
     - The bullet have a movement effect by scripting (every cooldown seconds, it rotate in the X axis)
+
 
 -----
 <!-- ## Gameplay images:
