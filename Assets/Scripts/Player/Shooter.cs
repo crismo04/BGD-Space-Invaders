@@ -10,10 +10,13 @@ public class Shooter : MonoBehaviour
 	// Reference to the AudioSource component on the player
 	public AudioSource sfxPlayer;
 
+    // Add the scene script to update bullet number
+    private Control_numbers control;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        control = FindObjectOfType<Control_numbers>();
     }
 
     // Update is called once per frame
@@ -31,5 +34,6 @@ public class Shooter : MonoBehaviour
         // since this script is on the player GameObject
         Instantiate(projectilePrefab, transform.position, Quaternion.identity);
         sfxPlayer.Play();
+        control.Update_bullet();
     }
 }

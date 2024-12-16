@@ -5,9 +5,18 @@ using UnityEngine;
 public class EnemyBehaviour : MonoBehaviour
 {
     public AudioClip destructionSFX;
+    
+    // Add the scene script to update alien number
+    private Control_numbers control;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        control = FindObjectOfType<Control_numbers>();
+    }
 
     // physical simulation hits. For Unity to call this function, at least one of the colliding objects
-	// needs to have their RigidBody component set to "Dynamic" for Body Type
+    // needs to have their RigidBody component set to "Dynamic" for Body Type
     private void OnCollisionEnter2D(Collision2D collision)
     {
         print("I Collided!");
@@ -25,7 +34,8 @@ public class EnemyBehaviour : MonoBehaviour
         {
             // Destroy the alien game object
             Destroy(gameObject);
-			
+            control.Update_alien();
+
             // Destroy the projectile game object
             Destroy(collision.gameObject);
 			

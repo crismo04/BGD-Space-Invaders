@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Scene_change : MonoBehaviour
 {
@@ -8,3 +9,4 @@ public class Scene_change : MonoBehaviour
         SceneManager.LoadScene(scene);
     }
 }
+

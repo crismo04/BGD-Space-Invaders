@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SpaceInvaders.unity
     guid: 4ddb475e772d40d47b15c36466e70a08
+  - enabled: 1
+    path: Assets/Scenes/Loser.unity
+    guid: c9a408626e0afbd4b9db801888dbc932
+  - enabled: 1
+    path: Assets/Scenes/Winner.unity
+    guid: c20fce57f6e1a544fbb9956200054546
   m_configObjects: {}
