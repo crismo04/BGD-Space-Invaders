@@ -4,7 +4,7 @@
 ### Cristian Molina Muñoz
 -----
 
-## itch.io link -> TODO
+## itch.io link ->  https://crismo04.itch.io/espace-invaaders
 
 ## WORK DONE:
 
@@ -29,14 +29,11 @@
 
 
 -----
-<!-- ## Gameplay images:
+## Gameplay images:
 
-### Initial state of the game
-![Initial state of the game](https://github.com/crismo04/TicTacToe-Final-Cristian/blob/main/Assets/Screenshots/Start.png)
+### Gameplay winner
+![Gameplay winner](https://github.com/crismo04/BGD-Space-Invaders/blob/main/Assets/Art/winner.png)
 
-### Middle state of the game (Gameplay)
-![Middle state of the game](https://github.com/crismo04/TicTacToe-Final-Cristian/blob/main/Assets/Screenshots/GamePlay.png)
+###  Gameplay
+![Middle state of the game](https://github.com/crismo04/BGD-Space-Invaders/blob/main/Assets/Art/Gameplay.png)
 
-### Endgame screen
-![Endgame screen](https://github.com/crismo04/TicTacToe-Final-Cristian/blob/main/Assets/Screenshots/WinScreen.png) 
--->
